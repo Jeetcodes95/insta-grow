@@ -1,4 +1,4 @@
-# Insta Grow — AI-Powered Social Media Automation SaaS
+# Insta Grower — AI-Powered Social Media Automation SaaS
 
 > **Publish smarter. Engage faster. Grow on autopilot.**
 
