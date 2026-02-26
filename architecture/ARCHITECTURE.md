@@ -154,3 +154,8 @@ AnalyticsSnapshot: { workspaceId, accountId, platform, date, followers, reach, i
 - Analytics aggregation batched hourly (not real-time) to reduce API calls
 - Redis for job deduplication (prevent double-posting on worker failure)
 - MongoDB: per-workspace indexes on all query-heavy collections
+
+
+## Updated: 2026-02-26
+
+**Comment classifier confidence threshold:** Added configurable confidence threshold per workspace (default: 0.82). Comments scoring below threshold are routed to human review regardless of predicted class. Reduces false auto-replies from 3% to <0.5% of cases in testing.
