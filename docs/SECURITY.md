@@ -60,3 +60,8 @@ All AI-generated content that requires sensitive handling goes through review be
 - GDPR data export: workspace owner can download all stored data
 - GDPR deletion: account deletion triggers cascade purge within 24 hours
 - Analytics data anonymized before ML model training
+
+
+## Updated: 2026-03-05
+
+**DM compliance enforcement:** Added minimum 4-hour gap between automated messages in the same conversation thread. Meta's policy prohibits sending more than one unsolicited message within a short window. All existing DM flows automatically subject to new constraint via middleware — no config change required.
