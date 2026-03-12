@@ -169,3 +169,8 @@ AnalyticsSnapshot: { workspaceId, accountId, platform, date, followers, reach, i
 ## Updated: 2026-03-09
 
 **Comment classifier confidence threshold:** Added configurable confidence threshold per workspace (default: 0.82). Comments scoring below threshold are routed to human review regardless of predicted class. Reduces false auto-replies from 3% to <0.5% of cases in testing.
+
+
+## Updated: 2026-03-12
+
+**Caption generation prompt versioning:** Added prompt version field to each workspace configuration (`captionPromptVersion`). When the global system prompt template is updated, existing workspaces stay on their current version until explicitly migrated. Prevents breaking active brand voice configurations on model updates.
