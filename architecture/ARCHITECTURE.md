@@ -174,3 +174,8 @@ AnalyticsSnapshot: { workspaceId, accountId, platform, date, followers, reach, i
 ## Updated: 2026-03-12
 
 **Caption generation prompt versioning:** Added prompt version field to each workspace configuration (`captionPromptVersion`). When the global system prompt template is updated, existing workspaces stay on their current version until explicitly migrated. Prevents breaking active brand voice configurations on model updates.
+
+
+## Updated: 2026-03-16
+
+**DM flow rate limiting:** DM sequences now enforce minimum 4-hour gap between messages in the same conversation thread. Previously, rapid trigger conditions could send 3 messages within 30 minutes — violating Meta's DM frequency policy for unsolicited sequences.
