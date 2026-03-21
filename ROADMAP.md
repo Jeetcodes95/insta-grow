@@ -76,3 +76,6 @@
 - ✅ DM inter-message gap enforcement (Meta policy compliance)
 - 🔄 Analytics: follower growth chart + engagement rate card
 - 📋 Next: Multi-account comparative analytics view
+
+
+> **Note (2026-03-21):** Weekend experiment — tested optimal posting time prediction on 4 dev accounts. Engagement peak at 7–9 AM and 7–9 PM local time consistent with published studies. Will ship heatmap-based suggestion in next sprint.
