@@ -103,3 +103,11 @@
 - ✅ Rate limit backoff: fixed 2h → exponential with jitter
 - 🔄 DM flow builder UI — 65% complete
 - 📋 Next: Keyword trigger configuration + sequence step editor
+
+
+### Week 15 Progress (2026-04-14)
+
+- ✅ Comment classifier confidence threshold (per-workspace config)
+- ✅ DM inter-message gap enforcement (Meta policy compliance)
+- 🔄 Analytics: follower growth chart + engagement rate card
+- 📋 Next: Multi-account comparative analytics view
