@@ -219,3 +219,8 @@ AnalyticsSnapshot: { workspaceId, accountId, platform, date, followers, reach, i
 ## Updated: 2026-04-23
 
 **Comment classifier confidence threshold:** Added configurable confidence threshold per workspace (default: 0.82). Comments scoring below threshold are routed to human review regardless of predicted class. Reduces false auto-replies from 3% to <0.5% of cases in testing.
+
+
+## Updated: 2026-04-27
+
+**Rate limit backoff improvement:** Switched from fixed 2h pause on 429 to exponential backoff with jitter. First 429: 15min pause. Second: 45min. Third: 2h. Fourth+: 8h with human notification. Prevents over-correction that was leaving accounts idle for 2h on minor rate fluctuations.
