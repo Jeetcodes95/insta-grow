@@ -80,3 +80,8 @@ All AI-generated content that requires sensitive handling goes through review be
 ## Updated: 2026-04-16
 
 **DM compliance enforcement:** Added minimum 4-hour gap between automated messages in the same conversation thread. Meta's policy prohibits sending more than one unsolicited message within a short window. All existing DM flows automatically subject to new constraint via middleware — no config change required.
+
+
+## Updated: 2026-04-30
+
+**DM compliance enforcement:** Added minimum 4-hour gap between automated messages in the same conversation thread. Meta's policy prohibits sending more than one unsolicited message within a short window. All existing DM flows automatically subject to new constraint via middleware — no config change required.
