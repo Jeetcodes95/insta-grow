@@ -324,3 +324,11 @@
 
 
 > **Note (2026-10-03):** Weekend experiment — tested optimal posting time prediction on 4 dev accounts. Engagement peak at 7–9 AM and 7–9 PM local time consistent with published studies. Will ship heatmap-based suggestion in next sprint.
+
+
+### Week 40 Progress (2026-10-06)
+
+- ✅ Prompt version pinning per workspace (prevents brand voice drift)
+- ✅ Rate limit backoff: fixed 2h → exponential with jitter
+- 🔄 DM flow builder UI — 65% complete
+- 📋 Next: Keyword trigger configuration + sequence step editor
